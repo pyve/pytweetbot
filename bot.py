@@ -1,6 +1,7 @@
 #coding=utf-8
 import tweepy
 import time
+import random
 from config import AUTH_DATA
 from do_oauth import request_access
 from tweets import TWEETS
