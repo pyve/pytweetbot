@@ -1,5 +1,6 @@
 #coding=utf-8
 import tweepy
+import time
 from config import AUTH_DATA
 from do_oauth import request_access
 from tweets import TWEETS
@@ -20,7 +21,13 @@ class TweetBot:
         self.api.update_status(text)
 
     def random_autotweet(self, tweets, delay):
-        pass
+        while True:
+            tweet = random.choice(tweets)
+            try:
+                self.tweet(tweet)
+                time.sleep(delay)
+            except:
+                pass
 
 
 if __name__ == '__main__':
