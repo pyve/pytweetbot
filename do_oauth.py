@@ -1,6 +1,11 @@
 #coding=utf-8
-from __future__ import unicode_literals
 import tweepy
-from config import AUTH_DATA
 
+def request_access(key, secret):
+    auth = tweepy.OAuthHandler(key, secret)
+    auth_url = auth.get_authorization_url()
+    print 'Please authorize: ' + auth_url
+    verifier = raw_input('PIN: ').strip()
+    auth.get_access_token(verifier)
+    return (auth.access_token.key, auth.access_token.secret)
 
