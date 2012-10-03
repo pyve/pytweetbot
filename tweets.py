@@ -1,1 +1,29 @@
-TWEETS = []
+#coding=utf-8
+TWEETS = [
+    '¿Quieres aprender Python?, te esperamos en el #PyConVE2012. http://ve.pycon.org',
+    '¿Desarrollas en Python y quieres aprender más?, #PyConVE2012 1, 2 y 3 de NOV en @lacatolica',
+    'Agradecemos enormemente a @lacatolica por ceder sus espacios para el #PyConVE2012',
+    'Agradecemos nuestro sponsor plata @ZavaCom por donar nuestro portal web http://ve.pycon.org',
+    'Te recordamos que los días 1, 2 y 3 de NOV, los pythonistas invadimos @lacatolica',
+    'Te invitamos al #PyConVE2012: 1, 2 y 3 de noviembre!',
+    '¿Tu empresa desarrolla en Python?, te invitamos a registrar charlas para el #PyConVE2012. http://ve.pycon.org',
+    '¿Eres un duro en Python?, comparte tus conocimientos en el #PyConVE2012. http://ve.pycon.org',
+    '¿No eres computista y te llama la atención la programación?, asiste al #PyConVE2012 y aprende un poco',
+    '¿Quieres que tu página web se vea como la del PyCon?, contacta a @ZavaCom, nuestro sponsor plata',
+    '¿Quieres compartir conocimientos?, registra una charla o tutorial para el #PyConVE2012. http://ve.pycon.org',
+    'Negocios, programación, negocios y programación. #PyConVE2012, asiste o registra tu charla, ¿qué esperas?',
+    '[d.asistir(#PyConVE2012) for d in venezuela.developers.all()]',
+    '¿Quieres ser sponsor?, envíanos un DM y te decimos cómo',
+    'Más de 100 personas registradas, ¿qué esperas?. http://ve.pycon.org',
+    '@Vauxoo y @lacatolica, nuestro sponsor platino y nuestra sede',
+    'Agradecemos a @Vauxoo por donar los pasajes de los ponentes internacionales del #PyConVE2012',
+    'Quieres conocer más acerca del #PyConVE2012, entra en http://ve.pycon.org',
+    '¿Buscas agregar inteligencia a tu negocio?, @vauxoo, nuestro sponsor platino puede ayudarte',
+    'Recuerda que para postular tu charla o tutorial, primero debes registrarte. http://ve.pycon.org',
+    '¿Pagas una costosa licencia por tu ERP y no estás contento?, @vauxoo, nuestro sponsor es la respuesta',
+    'Para conocer más de @zavacom, nuestro sponsor plata, entra aquí: http://zava.com.ve',
+    '¿Quieres saber más de @vauxoo, nuestro sponsor platino? entra en http://vauxoo.com',
+    'Para enterarte de todo lo que ofrece @lacatolica, visita http://www.ucab.edu.ve. Sede del #PyConVE2012.',
+    'Pronto publicaremos el cronograma de charlas y tutoriales. Pendiente en http://ve.pycon.org',
+    'Te gusta el #SL?, te gusta la programación?. Entonces vas a amar #Python. #PyConVE2012. http://ve.pycon.org'
+]
